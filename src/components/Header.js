@@ -3,7 +3,8 @@ import React from 'react';
 const Header = ({ handleToggleDarkMode }) => {
 	return (
 		<div className='header'>
-			<h1>Add Notes Here </h1>
+			<h1> Add Notes Here </h1>
+			<h1>
 			<button
 				onClick={() =>
 					handleToggleDarkMode(
@@ -13,7 +14,7 @@ const Header = ({ handleToggleDarkMode }) => {
 				className='save'
 			>
 				Toggle Mode
-			</button>
+			</button></h1>
 		</div>
 	);
 };

@@ -1,6 +1,7 @@
-# Run the code
+# Zen Notes App
 
 ```
-npm install
-npm start
+
+App for Notes
+
 ```
